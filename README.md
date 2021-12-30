@@ -25,7 +25,7 @@ Fill out the form and your cluster will be setup within few minutes.
 Now till here we have successfully created our cluster and now we will setup mongoDB in the cluster we made.
 
 ## Deploying MongoDB
-I am using MacOS here. So lets open the terminal.
+I am using Linux here. So lets open the terminal.
 
 ```sh
 git clone https://github.com/arpan45/mongodb-cluster-kubernetes.git
