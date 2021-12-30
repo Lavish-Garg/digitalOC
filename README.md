@@ -32,10 +32,13 @@ git clone https://github.com/arpan45/mongodb-cluster-kubernetes.git
 cd mongodb-cluster-kubernetes
 ```
 
-To install kubectl lets use Homebrew so run the command
+To install kubectl lets use cURL so run the command
 
 ```sh
-brew install kubectl
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+```
+```sh
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
 
 Then to check the version you installed run the command
