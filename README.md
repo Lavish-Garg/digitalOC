@@ -14,7 +14,7 @@ First Signup to DigitalOcean if you havn't already. Signup with the above button
 Go to Kubernetes Section
 <br />
 
-![DigitalOcean Kubernetes](images/main.png)
+![DigitalOcean Kubernetes](images/main-2.png)
 
 Select "create new cluster"
 
@@ -46,8 +46,6 @@ kubectl version --client
 
 You must have kubectl installed in your system
 <br /><br />
-
-![Kubectl Version](images/main-2.png)
 
 The number of replicas and other setup in mongodb-deployment.yaml file can be changed upon one's perspective.
 
